@@ -7,11 +7,15 @@ function getEmployees(){
         var firstName = faker.name.firstName()
         var lastName = faker.name.lastName()
         var phone = faker.phone.phoneNumber()
+        var email = faker.internet.email()
+        var image = faker.image.avatar()
 
         employees.push({
             "first_name" : firstName,
             "last_name" : lastName,
-            "phone" : phone
+            "phone" : phone,
+            "email" : email,
+            "image" : image
         })
     }
     return {"employees" : employees}
