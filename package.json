@@ -5,7 +5,7 @@
   "main": "employees.js",
   "dependencies": {
     "faker": "^4.1.0",
-    "json-server": "^0.15.1"
+    "json-server": "^0.17.1"
   },
   "devDependencies": {},
   "scripts": {
